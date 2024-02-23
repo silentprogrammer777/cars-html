@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+        background: url(bcar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 10px;
+}
+
+.main{
+    color: white;
+}
+
+nav{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+
+
+}
+
+ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 10px 15px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+}
+
+ul li:hover>ul {
+    display: block;
+}
+.ima {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ima h1 {
+    color: white;
+    padding-top: 15px;
+    display: inline;
+}
+
+p {
+    color: red;
+    display: inline;
+    font-size: 18px;
+}
+
+p{
+    color: red;
+}
+
+.con{
+    background: url(car1.jpg);
+    background-size: cover;
+
+}
